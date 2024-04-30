@@ -8,6 +8,12 @@
 | ------------- | --------------------------------------------------------------------------------------------------------------------------- |
 | openCV python | pengenalan wajah, pelacakan wajah, deteksi wajah, Kalman filtering, dan berbagai jenis metode AI (Artificial Intellegence). |
 
+# How to Explore?
+
+- clone
+- add env with running command: `python -m venv pcduts_env`
+- running project: `python main.py`
+
 # Data Diri
 
 |                |                                           |
