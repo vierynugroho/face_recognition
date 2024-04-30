@@ -39,8 +39,8 @@ def main():
         faces = face_detection(frame)
         # Menggambar kotak sekitar wajah dan menulis nama
         drawer_box(frame, faces, name)
-        # Menampilkan frame dengan label "Deteksi Wajah"
-        cv2.imshow("Deteksi Wajah", frame)
+        # Menampilkan frame dengan label "Face Recognition | Viery Nugroho"
+        cv2.imshow("Face Recognition | Viery Nugroho", frame)
 
         # Jika tombol 'q' ditekan, maka program akan berhenti
         if cv2.waitKey(1) & 0xFF == ord('q'):
